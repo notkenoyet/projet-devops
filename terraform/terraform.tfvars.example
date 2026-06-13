@@ -1,0 +1,8 @@
+# Copier ce fichier vers terraform.tfvars et adapter si nécessaire
+# cp terraform.tfvars.example terraform.tfvars
+
+kubeconfig_path    = "~/.kube/config"
+kubeconfig_context = ""
+namespace          = "microservice"
+image_pull_policy  = "IfNotPresent"
+gateway_node_port  = 30080
